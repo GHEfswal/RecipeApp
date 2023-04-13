@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  // border: 2px red dotted;
+  gap: 14px;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+a {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+}
+
+a:first-child {
+  // font-size: 32px;
+  // font-family: sans-serif;
+  // margin: 0;
+  text-decoration: underline;
+  color: green;
+}
+
+a:hover {
+  color: green;
+}
